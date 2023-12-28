@@ -53,3 +53,58 @@ button:hover {
 .header_img {
   margin-top: 108px;
 }
+/* main section style start from here */
+main {
+  padding: 20px 180px;
+}
+.featured_section {
+  padding-top: 100px;
+}
+.featured_title {
+  color: var(--titleColor);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.featured_description {
+  color: var(--secondaryColor);
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 24px 0;
+}
+/* flower container */
+.flower_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.flower_contend img {
+  max-width: 100%;
+  max-height: 90%;
+  margin-top: 60px;
+}
+.flower_contend {
+  width: 350px;
+  height: 428px;
+  background-color: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  border-radius: 180px 180px 0px 0px;
+  box-shadow: 0.5px 0.5px 5px rgba(66, 65, 65, 0.281);
+}
+.second {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.third {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.flower_title {
+  color: var(--titleColor);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 15px;
+}
