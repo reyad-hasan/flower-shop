@@ -55,7 +55,7 @@ button:hover {
 }
 /* main section style start from here */
 main {
-  padding: 20px 180px;
+  padding: 0px 180px;
 }
 .featured_section {
   padding-top: 100px;
@@ -107,4 +107,26 @@ main {
   line-height: 35px;
   text-decoration-line: underline;
   margin-top: 15px;
+}
+/* support section style start from here */
+.support_section {
+  padding: 50px 150px;
+  background-color: rgba(39, 39, 39, 0.05);
+  margin-top: 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.support_contend img {
+  width: 88px;
+  height: 88px;
+}
+.support_contend {
+  text-align: center;
+}
+.support_contend_title {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
 }
