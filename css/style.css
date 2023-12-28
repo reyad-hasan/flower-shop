@@ -54,8 +54,8 @@ button:hover {
   margin-top: 108px;
 }
 /* main section style start from here */
-main {
-  padding: 0px 180px;
+.section_padding {
+  padding: 0 180px;
 }
 .featured_section {
   padding-top: 100px;
@@ -110,12 +110,12 @@ main {
 }
 /* support section style start from here */
 .support_section {
-  padding: 50px 150px;
   background-color: rgba(39, 39, 39, 0.05);
   margin-top: 100px;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
+  padding: 50px 180px;
 }
 .support_contend img {
   width: 88px;
